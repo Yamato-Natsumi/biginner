@@ -1,1 +1,100 @@
 
+body{
+  background-color:white;
+  color: #0f363a;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  width: 950px;
+  height: 62px;
+  margin: auto;
+  background-color: white;
+}
+
+.profile{
+  float: left;
+  margin: 10px 30px;
+  padding: 4px 18px;
+  color: white;
+  background-color:#0f363a;
+  font-weight:bold;
+  font-size: 22px;
+}
+
+header div{
+  float:right;
+  margin: 18px 30px;
+}
+
+header div a{
+  color: black;
+  font-size: 14px;
+  margin: 10px;
+}
+
+.mainImg{
+  width: 100%;
+}
+
+h1{
+  display: inline-block;
+  border-bottom: solid 1px #0f363a;
+}
+
+h2{
+  font-size: 16px;
+}
+
+p{
+  font-size: 14px;
+}
+
+.about{
+  text-align: center;
+  margin:100px;
+  margin-bottom: 80px;
+}
+
+.aboutContents{
+  display: flex;
+  margin-top: 30px;
+}
+
+.aboutImg{
+  object-fit: cover;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 10px 30px 0 200px;
+}
+
+.aboutContents div{
+  text-align: left;
+  width:420px;
+}
+
+.bicycle{
+  text-align: center;
+}
+
+.bicycleContent{
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 80px 0;
+}
+
+.content{
+  margin:10px;
+}
+
+.content img{
+  width: 275px;
+}
+
+.c{
+  font-size: 7px;
+}
